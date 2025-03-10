@@ -42,6 +42,60 @@
 /*----------------------------------------*/
 /*-- Google Font --*/
 /*-- Common Style --*/
+
+
+/*  FONTS */
+
+
+/* Definición de fuentes */
+
+
+@font-face {
+  font-family: 'Neue Montreal Bold';
+  src: url('/assets/fonts/NeueMontreal-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Montreal Regular';
+  src: url('/assets/fonts/NeueMontreal-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Montreal Light';
+  src: url('/assets/fonts/NeueMontreal-Light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+
+/* Aplicación de fuentes a etiquetas */
+h1 {
+  font-family: 'Neue Montreal Bold', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  font-family: 'Neue Montreal Regular', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+/*p {
+  font-family: 'Neue Montreal Light', sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.6;
+}*/
+
+
+
+
 *,
 *::after,
 *::before {
